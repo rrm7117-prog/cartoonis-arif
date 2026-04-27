@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Premium Cartoon Studio</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Premium Cartoon Studio</h1>
+  <p>Caricature • Portrait • Digital Illustration • Brand Mascot</p>
+
+  <div class="btns">
+    <a href="#services" class="btn">Services</a>
+    <a href="#portfolio" class="btn outline">Portfolio</a>
+    <a href="#contact" class="btn">Contact</a>
+  </div>
+</header>
+
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">Caricature Design</div>
+    <div class="card">Digital Portrait</div>
+    <div class="card">Wedding Cartoon</div>
+    <div class="card">Gift Illustration</div>
+    <div class="card">Brand Mascot</div>
+    <div class="card">Social Media Art</div>
+  </div>
+</section>
+
+<section id="portfolio" class="section">
+  <h2>Portfolio</h2>
+  <div id="gallery" class="grid"></div>
+</section>
+
+<section id="contact" class="section dark">
+  <h2>Contact & Order</h2>
+
+  <form onsubmit="sendOrder(event)">
+    <input id="name" placeholder="Your Name" required />
+    <input id="type" placeholder="Artwork Type" required />
+    <textarea id="msg" placeholder="Your Requirement" required></textarea>
+    <button type="submit">Send Order</button>
+  </form>
+
+  <p id="status"></p>
+
+  <a class="whatsapp" href="https://wa.me/8801XXXXXXXXX" target="_blank">
+    Order on WhatsApp
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Premium Cartoon Studio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
